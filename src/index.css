@@ -1,0 +1,104 @@
+/* ⚠️ NÃO PRECISA ALTERAR ESTE ARQUIVO (só se quiser deixar mais bonito!) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #f1f3f6;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+h1 {
+  color: #c4161c;
+}
+
+.parte {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.parte h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* Parte 2 - CartaoAluno */
+.cartao {
+  flex: 1 1 220px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+.cartao img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #eee;
+}
+
+/* Parte 3 - Produto */
+.produto {
+  flex: 1 1 220px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.produto.promocao {
+  border-color: #2e7d32;
+  background: #f1fbf2;
+}
+
+.selo {
+  display: inline-block;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+/* Parte 4 - Botao */
+.botao {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.botao.azul {
+  background: #1565c0;
+}
+
+.botao.vermelho {
+  background: #c62828;
+}
+
+.botao.verde {
+  background: #2e7d32;
+}

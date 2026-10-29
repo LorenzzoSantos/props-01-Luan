@@ -37,12 +37,15 @@ function App() {
         <Saudacao nome="João" />
 
         {/* ✏️ TAREFA 1.1
-            Adicione mais um <Saudacao /> aqui embaixo com o SEU nome.  */}
+            Adicione mais um <Saudacao /> aqui embaixo com o SEU nome.  */
+            <Saudacao nome="Lorenzzo" />
+            }
 
         {/* ✏️ TAREFA 1.2
             O que acontece se você usar <Saudacao /> SEM a prop nome?
             Teste aqui e anote a resposta neste comentário:
-            Resposta: ...                                                */}
+            Resposta: Fica uma mensagem de saudação sem nome       */
+            <Saudacao />}
       </section>
 
       {/* ============================================================
@@ -64,10 +67,20 @@ function App() {
           {/* ✏️ TAREFA 2.4
               Complete este cartão: adicione as props idade e foto.
               Para a foto, você pode usar: https://i.pravatar.cc/150?img=12  */}
-          <CartaoAluno nome="Carlos Lima" curso="Front-end" />
+          <CartaoAluno 
+          nome="Carlos Lima" 
+          curso="Front-end" 
+          idade="67" 
+          foto="https://i.pravatar.cc/150?img=12"/>
 
           {/* ✏️ TAREFA 2.5
-              Crie um terceiro <CartaoAluno /> com os SEUS dados.          */}
+              Crie um terceiro <CartaoAluno /> com os SEUS dados.          */
+          <CartaoAluno 
+          nome="Lorenzzudo resenhudo" 
+          curso="Aplicar tchaus" 
+          idade="A que eu quiser meu" 
+          foto="https://i.pinimg.com/1200x/59/81/11/598111fd8e296dda84c7f7d2b9be6407.jpg"/>}
+
         </div>
       </section>
 
